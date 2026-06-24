@@ -13746,7 +13746,7 @@
 		)
 		(uuid "ce5b763f-6d8c-4ba7-a936-a9f81117c828")
 	)
-	(label "PC6"
+	(label "PB15"
 		(at 161.29 171.45 0)
 		(effects
 			(font
@@ -13856,7 +13856,7 @@
 		)
 		(uuid "e013202f-e7dc-46cb-9b25-52594a5847d2")
 	)
-	(label "PC6"
+	(label "PB14"
 		(at 283.21 171.45 0)
 		(effects
 			(font
