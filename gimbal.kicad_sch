@@ -9508,16 +9508,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 104.14) (xy 165.1 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e1cd6b2-91a6-4b48-bd5a-c622b32bbf3f")
-	)
-	(wire
-		(pts
 			(xy 332.74 168.91) (xy 345.44 168.91)
 		)
 		(stroke
@@ -10045,16 +10035,6 @@
 			(type default)
 		)
 		(uuid "7657e6bf-7c31-4a02-b6e0-65ea21453371")
-	)
-	(wire
-		(pts
-			(xy 154.94 104.14) (xy 152.4 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7678d546-e039-4550-8b5d-b7191fbf9d41")
 	)
 	(wire
 		(pts
@@ -12638,16 +12618,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 104.14) (xy 177.8 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1ae028c-252f-4a41-add0-8f716ef10e27")
-	)
-	(wire
-		(pts
 			(xy 280.67 252.73) (xy 280.67 254)
 		)
 		(stroke
@@ -13296,7 +13266,7 @@
 		)
 		(uuid "5949ffb9-3bc6-4260-955f-aa6f2e3b31f8")
 	)
-	(label "PC6"
+	(label "PB14"
 		(at 40.64 171.45 0)
 		(effects
 			(font
@@ -13636,16 +13606,6 @@
 		)
 		(uuid "adb0cc30-467c-4a6c-9792-b6c6feaef5ff")
 	)
-	(label "PC6"
-		(at 177.8 104.14 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "afefd84c-e8bf-4ebf-a352-4b9b14213bed")
-	)
 	(label "Pitch1"
 		(at 16.51 269.24 0)
 		(effects
@@ -13856,7 +13816,7 @@
 		)
 		(uuid "e013202f-e7dc-46cb-9b25-52594a5847d2")
 	)
-	(label "PB14"
+	(label "PC6"
 		(at 283.21 171.45 0)
 		(effects
 			(font
@@ -16718,85 +16678,6 @@
 			(project "gimbal"
 				(path "/3eb7d9fe-c3b4-4b53-9f23-9f8dbb8724ef"
 					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 168.91 104.14 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "40930061-00c3-48c8-8ae7-d945ab7dd69d")
-		(property "Reference" "R13"
-			(at 169.418 99.06 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5.1k"
-			(at 169.418 101.6 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
-			(at 168.91 102.362 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.91 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 168.91 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c696d5dc-54eb-4e9d-85cf-fbaa0dd98043")
-		)
-		(pin "1"
-			(uuid "bfc5dc8b-bbfb-4ece-a6d8-6964bb46298f")
-		)
-		(instances
-			(project "gimbal"
-				(path "/3eb7d9fe-c3b4-4b53-9f23-9f8dbb8724ef"
-					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -20914,85 +20795,6 @@
 			(project "gimbal"
 				(path "/3eb7d9fe-c3b4-4b53-9f23-9f8dbb8724ef"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 152.4 104.14 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7d0e9ab4-6c82-4a66-ab4c-3a23cf7e5e33")
-		(property "Reference" "#PWR022"
-			(at 146.05 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 148.59 104.1399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 152.4 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 152.4 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e6fe754e-948a-41d9-91d2-9af78fd0c96a")
-		)
-		(instances
-			(project "gimbal"
-				(path "/3eb7d9fe-c3b4-4b53-9f23-9f8dbb8724ef"
-					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -25614,96 +25416,6 @@
 			(project "gimbal"
 				(path "/3eb7d9fe-c3b4-4b53-9f23-9f8dbb8724ef"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 158.75 104.14 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c2c50c25-237e-4421-8bf5-f1bc46273a50")
-		(property "Reference" "D4"
-			(at 159.004 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 158.75 101.346 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 158.75 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 158.75 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 158.75 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e0374657-f994-42fa-b31b-e86524c9a8fd")
-		)
-		(pin "2"
-			(uuid "ec9e304e-3714-44d4-ab73-5f1ac2ce54e7")
-		)
-		(instances
-			(project "gimbal"
-				(path "/3eb7d9fe-c3b4-4b53-9f23-9f8dbb8724ef"
-					(reference "D4")
 					(unit 1)
 				)
 			)
