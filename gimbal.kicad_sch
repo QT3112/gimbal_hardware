@@ -9788,6 +9788,16 @@
 	)
 	(wire
 		(pts
+			(xy 349.25 38.1) (xy 349.25 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6db12fb0-b258-4f5e-bfda-9bc8513681f4")
+	)
+	(wire
+		(pts
 			(xy 90.17 204.47) (xy 92.71 204.47)
 		)
 		(stroke
@@ -11785,16 +11795,6 @@
 			(type default)
 		)
 		(uuid "c65f55fe-bac5-40bc-9bef-a9fb2570fce3")
-	)
-	(wire
-		(pts
-			(xy 349.25 40.64) (xy 349.25 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c673172c-7f2b-4467-94d8-cf525fab58cd")
 	)
 	(wire
 		(pts
@@ -14607,7 +14607,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4110"
 			(at 320.04 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -14783,6 +14783,83 @@
 			(project "gimbal"
 				(path "/3eb7d9fe-c3b4-4b53-9f23-9f8dbb8724ef"
 					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 349.25 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "19de912c-71e8-4cb4-a265-033a73830228")
+		(property "Reference" "#PWR065"
+			(at 349.25 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 348.996 34.036 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 349.25 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 349.25 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 349.25 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f302dcb2-bbc4-4bef-a5fc-19f948cb7eb8")
+		)
+		(instances
+			(project "gimbal"
+				(path "/3eb7d9fe-c3b4-4b53-9f23-9f8dbb8724ef"
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -23382,84 +23459,6 @@
 			(project "gimbal"
 				(path "/3eb7d9fe-c3b4-4b53-9f23-9f8dbb8724ef"
 					(reference "#PWR062")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 349.25 40.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a38542f2-0bf0-4853-9349-dc47da7d65eb")
-		(property "Reference" "#PWR013"
-			(at 349.25 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 349.25 35.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 349.25 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 349.25 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 349.25 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b91fbf01-2517-4de9-ac00-a049fa71a3f0")
-		)
-		(instances
-			(project "gimbal"
-				(path "/3eb7d9fe-c3b4-4b53-9f23-9f8dbb8724ef"
-					(reference "#PWR013")
 					(unit 1)
 				)
 			)
